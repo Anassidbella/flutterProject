@@ -1,0 +1,4 @@
+0 Hoodies
+1 T-shirts
+2 Jeans
+3 Shorts
