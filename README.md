@@ -1,16 +1,33 @@
-# mini_projet
+# Mini Projet : Application de Gestion des Vêtements
 
-A new Flutter project.
+Cette application Flutter est conçue pour faciliter la gestion des vêtements. Elle permet aux utilisateurs d’ajouter un vêtement en téléchargeant une image, et grâce à un modèle d'apprentissage automatique, l'application prédit la catégorie du vêtement téléchargé.
 
-## Getting Started
+## Fonctionnalités clés
 
-This project is a starting point for a Flutter application.
+- **Ajout de vêtements** : Les utilisateurs peuvent ajouter un vêtement en téléchargeant une image.
+- **Prédiction de catégorie** : L'application analyse l'image téléchargée et prédit automatiquement la catégorie du vêtement parmi les options disponibles.
 
-A few resources to get you started if this is your first Flutter project:
+## Informations de Connexion
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Pour des besoins de test, vous pouvez utiliser les identifiants suivants :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Utilisateur 1** :  
+  - **Nom d'utilisateur** : test  
+  - **Mot de passe** : test
+
+- **Utilisateur 2** :  
+  - **Nom d'utilisateur** : user1  
+  - **Mot de passe** : user1
+
+## Catégories de Vêtements Supportées
+
+Le modèle de prédiction est entraîné sur les catégories suivantes :
+- **Shorts**
+- **T-shirts**
+- **Hoodies**
+- **Jeans**
+
+Lors de l'ajout d’un vêtement, veuillez vous assurer que l'image correspond à l'une de ces catégories pour garantir une prédiction optimale.
+
+---
+
