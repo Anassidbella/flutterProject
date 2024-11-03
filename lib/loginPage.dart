@@ -67,7 +67,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gestion de Vêtements'),
+        
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24.0),
@@ -82,7 +82,7 @@ class LoginPage extends StatelessWidget {
             TextField(
               controller: _loginController,
               decoration: const InputDecoration(
-                labelText: 'Identifiant',
+                labelText: 'Login',
                 border: OutlineInputBorder(),
               ),
             ),
@@ -90,7 +90,7 @@ class LoginPage extends StatelessWidget {
             TextField(
               controller: _passwordController,
               decoration: const InputDecoration(
-                labelText: 'Mot de passe',
+                labelText: 'Password',
                 border: OutlineInputBorder(),
               ),
               obscureText: true,
