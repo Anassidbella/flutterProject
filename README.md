@@ -30,4 +30,50 @@ Le modèle de prédiction est entraîné sur les catégories suivantes :
 Lors de l'ajout d’un vêtement, veuillez vous assurer que l'image correspond à l'une de ces catégories pour garantir une prédiction optimale.
 
 ---
+## Instructions pour Installer et Exécuter l'Application Localement
+
+### Prérequis
+1. **Flutter SDK** : Installez Flutter en suivant le [guide officiel](https://docs.flutter.dev/get-started/install).
+2. **Git** : Assurez-vous que Git est installé. Téléchargez-le depuis [ce lien](https://git-scm.com/downloads).
+3. **IDE** : Installez un éditeur de code comme [VS Code](https://code.visualstudio.com/) ou [Android Studio](https://developer.android.com/studio).
+4. **Emulateur ou Appareil Physique** : Configurez un émulateur Android/iOS ou connectez un appareil physique avec le mode débogage USB activé.
+
+---
+
+### Étapes d’Installation
+
+#### 1. **Cloner le Référentiel**
+Ouvrez un terminal et exécutez la commande suivante :
+```bash
+git clone https://github.com/Anassidbella/flutterProject.git
+```
+Naviguez dans le dossier du projet :
+```bash
+cd flutterProject
+```
+2. **Installer les Dépendances**
+Installez les paquets nécessaires avec :
+```bash
+flutter pub get
+```
+#### 3. **Configurer les Plates-Formes**
+Android : Assurez-vous que l'Android SDK est configuré dans Android Studio.
+iOS (macOS uniquement) : Installez CocoaPods si ce n'est pas déjà fait :
+```bash
+sudo gem install cocoapods
+cd ios
+pod install
+cd ..
+```
+
+#### 4. **Lancer l’Application**
+Vérifiez que votre appareil ou émulateur est détecté :
+```bash
+flutter devices
+```
+Lancez l'application :
+```bash
+flutter run
+```
+
 
