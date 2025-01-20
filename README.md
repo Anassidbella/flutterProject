@@ -1,6 +1,8 @@
 # Mini Projet : Application de Gestion des Vêtements
 
-Cette application Flutter est conçue pour faciliter la gestion des vêtements. Elle permet aux utilisateurs d’ajouter un vêtement en téléchargeant une image, et grâce à un modèle d'apprentissage automatique, l'application prédit la catégorie du vêtement téléchargé.
+Cette application Flutter est un **MVP (Produit Minimum Viable)** conçu pour la vente de vêtements. Elle agit comme une boutique en ligne où les utilisateurs peuvent ajouter des vêtements et, grâce à une image téléchargée, la catégorie du vêtement est automatiquement prédite et affectée. Le modèle d'apprentissage automatique utilisé pour la prédiction a été entraîné et exporté à l'aide de **Teachable Machine** et est disponible dans le dossier **assets/** du projet.
+
+
 
 ## Fonctionnalités clés
 
